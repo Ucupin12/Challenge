@@ -2,6 +2,11 @@
 
 body {
   font-family: "Fraunces", serif;
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 * {
@@ -9,3 +14,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.card {
+  border-radius: 10px;
+  display: flex;
+  max-width: 666px;
+  background-color: white;
+  margin: 0 1rem;
+}
+
